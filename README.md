@@ -9,6 +9,7 @@ The purpose of this analysis is to create a deep learning model using neural net
 The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether the funding was used effectively (1) or not (0).
 Feature Variables: "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," "USE_CASE," "ORGANIZATION," "STATUS," "INCOME_AMT," "SPECIAL_CONSIDERATIONS," and "ASK_AMT."
 Variables Removed: The "EIN" and "NAME" columns were removed.
+
 -Compiling, Training, and Evaluating the Model:
 
 Neurons, Layers, and Activation Functions: The selected neural network model architecture consists of two hidden layers with 128 and 64 neurons, respectively.
